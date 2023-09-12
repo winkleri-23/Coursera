@@ -1,0 +1,15 @@
+{
+    "add_recipient": "",
+    "recipient_list": [
+        "digest-recipient1@email.com",
+        "digest-recipient2@email.com"
+    ],
+    "hour": "07",
+    "minute": "30",
+    "quote": 1,
+    "weather": 1,
+    "twitter": 1,
+    "wikipedia": 1,
+    "sender_email": "YOUR SENDER EMAIL ADDRESS GOES HERE",
+    "sender_password": "YOUR SENDER EMAIL PASSWORD GOES HERE"
+}
