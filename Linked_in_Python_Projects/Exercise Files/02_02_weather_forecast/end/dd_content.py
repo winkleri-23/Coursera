@@ -24,7 +24,7 @@ Retrieve the current weather forecast from OpenWeatherMap.
 """
 def get_weather_forecast(coords={'lat': 28.4717, 'lon': -80.5378}): # default location at Cape Canaveral, FL
     try: # retrieve forecast for specified coordinates
-        api_key = 'YOUR OPENWEATHERMAP API KEY GOES HERE' # replace with your own OpenWeatherMap API key
+        api_key = '' # replace with your own OpenWeatherMap API key
         url = f'https://api.openweathermap.org/data/2.5/forecast?lat={coords["lat"]}&lon={coords["lon"]}&appid={api_key}&units=metric'
         data = json.load(request.urlopen(url))
 
